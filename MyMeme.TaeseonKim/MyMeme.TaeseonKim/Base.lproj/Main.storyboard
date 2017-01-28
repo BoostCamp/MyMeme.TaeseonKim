@@ -68,6 +68,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                             </textField>
+                            <view alpha="0.10000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DEt-JP-g2y" customClass="DrawView" customModule="MyMeme_TaeseonKim" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="99" width="320" height="385"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Etf-Cn-w3J">
                                 <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                                 <items>
@@ -103,10 +107,6 @@
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="eaf-Tl-Ncy"/>
                                 </items>
                             </toolbar>
-                            <view alpha="0.10000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DEt-JP-g2y" customClass="DrawView" customModule="MyMeme_TaeseonKim" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="64" width="320" height="460"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -115,7 +115,7 @@
                             <constraint firstItem="DEt-JP-g2y" firstAttribute="leading" secondItem="USB-Hy-Hib" secondAttribute="leading" id="9DX-jR-NvH"/>
                             <constraint firstItem="6o1-mN-sed" firstAttribute="leading" secondItem="USB-Hy-Hib" secondAttribute="leading" id="Aap-8f-SL9"/>
                             <constraint firstItem="1vf-hQ-nSu" firstAttribute="leading" secondItem="USB-Hy-Hib" secondAttribute="leading" id="EeE-Sm-aEE"/>
-                            <constraint firstItem="DEt-JP-g2y" firstAttribute="top" secondItem="Etf-Cn-w3J" secondAttribute="bottom" id="RZw-SS-ZLi"/>
+                            <constraint firstItem="DEt-JP-g2y" firstAttribute="top" secondItem="Etf-Cn-w3J" secondAttribute="bottom" constant="35" id="RZw-SS-ZLi"/>
                             <constraint firstAttribute="trailing" secondItem="Etf-Cn-w3J" secondAttribute="trailing" id="SOv-1l-rCi"/>
                             <constraint firstAttribute="trailing" secondItem="Dcx-WY-SYL" secondAttribute="trailing" id="Tcu-SC-AlY"/>
                             <constraint firstItem="QMd-6X-RsZ" firstAttribute="top" secondItem="1vf-hQ-nSu" secondAttribute="bottom" constant="15" id="UhM-2s-j0z"/>
@@ -129,7 +129,7 @@
                             <constraint firstItem="6o1-mN-sed" firstAttribute="top" secondItem="Etf-Cn-w3J" secondAttribute="bottom" constant="10" id="lIc-He-n8t"/>
                             <constraint firstItem="QMd-6X-RsZ" firstAttribute="leading" secondItem="USB-Hy-Hib" secondAttribute="leading" id="m83-tp-g8g"/>
                             <constraint firstItem="Etf-Cn-w3J" firstAttribute="top" secondItem="USB-Hy-Hib" secondAttribute="top" constant="20" id="tWv-OR-h7Q"/>
-                            <constraint firstItem="QMd-6X-RsZ" firstAttribute="top" secondItem="DEt-JP-g2y" secondAttribute="bottom" id="vys-Xd-ucz"/>
+                            <constraint firstItem="QMd-6X-RsZ" firstAttribute="top" secondItem="DEt-JP-g2y" secondAttribute="bottom" constant="40" id="vys-Xd-ucz"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="45B-bI-fg6"/>

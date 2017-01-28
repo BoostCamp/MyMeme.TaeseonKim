@@ -75,7 +75,6 @@ class MemeEditingViewController: UIViewController, UIImagePickerControllerDelega
                 self.save(memedImage: memedImage)
                 
                 self.dismiss(animated: true, completion: nil)
-                
             }
             
         }
