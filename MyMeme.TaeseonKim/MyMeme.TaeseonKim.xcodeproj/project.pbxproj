@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC1F179F1E3C6B2400F2D99E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1F179E1E3C6B2400F2D99E /* AppDelegate.swift */; };
+		EC1F17A41E3C6B2400F2D99E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1F17A21E3C6B2400F2D99E /* Main.storyboard */; };
+		EC1F17A61E3C6B2400F2D99E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1F17A51E3C6B2400F2D99E /* Assets.xcassets */; };
+		EC1F17A91E3C6B2400F2D99E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1F17A71E3C6B2400F2D99E /* LaunchScreen.storyboard */; };
+		EC1F17B41E3C6B2400F2D99E /* MyMeme_TaeseonKimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1F17B31E3C6B2400F2D99E /* MyMeme_TaeseonKimTests.swift */; };
+		EC1F17BF1E3C6B2500F2D99E /* MyMeme_TaeseonKimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1F17BE1E3C6B2500F2D99E /* MyMeme_TaeseonKimUITests.swift */; };
+		EC1F17CD1E3C6CC700F2D99E /* MemeEditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1F17CC1E3C6CC700F2D99E /* MemeEditingViewController.swift */; };
+		EC1F17CF1E3C741400F2D99E /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1F17CE1E3C741400F2D99E /* DrawView.swift */; };
+		EC1F17D21E3C74F300F2D99E /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1F17D11E3C74F300F2D99E /* Line.swift */; };
+		EC1F17D51E3C888B00F2D99E /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1F17D41E3C888B00F2D99E /* Meme.swift */; };
+		EC1F17D71E3C89CA00F2D99E /* MemeEditingViewControllerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1F17D61E3C89CA00F2D99E /* MemeEditingViewControllerTextField.swift */; };
+		EC1F17E51E3C93B200F2D99E /* MemesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1F17E41E3C93B200F2D99E /* MemesTableViewController.swift */; };
+		EC1F17E81E3C94A000F2D99E /* MemeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1F17E71E3C94A000F2D99E /* MemeTableViewCell.swift */; };
+		EC1F17EF1E3CBCDB00F2D99E /* MemedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1F17EE1E3CBCDB00F2D99E /* MemedImage.swift */; };
+		EC1F17F11E3CD1A100F2D99E /* MemeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1F17F01E3CD1A100F2D99E /* MemeCollectionViewController.swift */; };
+		EC1F17F31E3CD1A800F2D99E /* MemeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1F17F21E3CD1A800F2D99E /* MemeCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC1F17B01E3C6B2400F2D99E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1F17931E3C6B2400F2D99E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1F179A1E3C6B2400F2D99E;
+			remoteInfo = MyMeme.TaeseonKim;
+		};
+		EC1F17BB1E3C6B2500F2D99E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1F17931E3C6B2400F2D99E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1F179A1E3C6B2400F2D99E;
+			remoteInfo = MyMeme.TaeseonKim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC1F179B1E3C6B2400F2D99E /* MyMeme.TaeseonKim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMeme.TaeseonKim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1F179E1E3C6B2400F2D99E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC1F17A31E3C6B2400F2D99E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC1F17A51E3C6B2400F2D99E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC1F17A81E3C6B2400F2D99E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC1F17AA1E3C6B2400F2D99E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1F17AF1E3C6B2400F2D99E /* MyMeme.TaeseonKimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMeme.TaeseonKimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1F17B31E3C6B2400F2D99E /* MyMeme_TaeseonKimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMeme_TaeseonKimTests.swift; sourceTree = "<group>"; };
+		EC1F17B51E3C6B2400F2D99E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1F17BA1E3C6B2500F2D99E /* MyMeme.TaeseonKimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMeme.TaeseonKimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1F17BE1E3C6B2500F2D99E /* MyMeme_TaeseonKimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMeme_TaeseonKimUITests.swift; sourceTree = "<group>"; };
+		EC1F17C01E3C6B2500F2D99E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1F17CC1E3C6CC700F2D99E /* MemeEditingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeEditingViewController.swift; sourceTree = "<group>"; };
+		EC1F17CE1E3C741400F2D99E /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		EC1F17D11E3C74F300F2D99E /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		EC1F17D41E3C888B00F2D99E /* Meme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
+		EC1F17D61E3C89CA00F2D99E /* MemeEditingViewControllerTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeEditingViewControllerTextField.swift; sourceTree = "<group>"; };
+		EC1F17E41E3C93B200F2D99E /* MemesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemesTableViewController.swift; sourceTree = "<group>"; };
+		EC1F17E71E3C94A000F2D99E /* MemeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeTableViewCell.swift; sourceTree = "<group>"; };
+		EC1F17EE1E3CBCDB00F2D99E /* MemedImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemedImage.swift; sourceTree = "<group>"; };
+		EC1F17F01E3CD1A100F2D99E /* MemeCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MemeCollectionViewController.swift; path = ../../../.Trash/MemeCollectionViewController.swift; sourceTree = "<group>"; };
+		EC1F17F21E3CD1A800F2D99E /* MemeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MemeCollectionViewCell.swift; path = ../../../.Trash/MemeCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC1F17981E3C6B2400F2D99E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1F17AC1E3C6B2400F2D99E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1F17B71E3C6B2500F2D99E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC1F17921E3C6B2400F2D99E = {
+			isa = PBXGroup;
+			children = (
+				EC1F179D1E3C6B2400F2D99E /* MyMeme.TaeseonKim */,
+				EC1F17B21E3C6B2400F2D99E /* MyMeme.TaeseonKimTests */,
+				EC1F17BD1E3C6B2500F2D99E /* MyMeme.TaeseonKimUITests */,
+				EC1F179C1E3C6B2400F2D99E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC1F179C1E3C6B2400F2D99E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC1F179B1E3C6B2400F2D99E /* MyMeme.TaeseonKim.app */,
+				EC1F17AF1E3C6B2400F2D99E /* MyMeme.TaeseonKimTests.xctest */,
+				EC1F17BA1E3C6B2500F2D99E /* MyMeme.TaeseonKimUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC1F179D1E3C6B2400F2D99E /* MyMeme.TaeseonKim */ = {
+			isa = PBXGroup;
+			children = (
+				EC1F179E1E3C6B2400F2D99E /* AppDelegate.swift */,
+				EC1F17D41E3C888B00F2D99E /* Meme.swift */,
+				EC1F17CC1E3C6CC700F2D99E /* MemeEditingViewController.swift */,
+				EC1F17EE1E3CBCDB00F2D99E /* MemedImage.swift */,
+				EC1F17D61E3C89CA00F2D99E /* MemeEditingViewControllerTextField.swift */,
+				EC1F17E41E3C93B200F2D99E /* MemesTableViewController.swift */,
+				EC1F17E71E3C94A000F2D99E /* MemeTableViewCell.swift */,
+				EC1F17F01E3CD1A100F2D99E /* MemeCollectionViewController.swift */,
+				EC1F17F21E3CD1A800F2D99E /* MemeCollectionViewCell.swift */,
+				EC1F17A21E3C6B2400F2D99E /* Main.storyboard */,
+				EC1F17D31E3C86A900F2D99E /* DrawViewSet */,
+				EC1F17A51E3C6B2400F2D99E /* Assets.xcassets */,
+				EC1F17A71E3C6B2400F2D99E /* LaunchScreen.storyboard */,
+				EC1F17AA1E3C6B2400F2D99E /* Info.plist */,
+			);
+			path = MyMeme.TaeseonKim;
+			sourceTree = "<group>";
+		};
+		EC1F17B21E3C6B2400F2D99E /* MyMeme.TaeseonKimTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC1F17B31E3C6B2400F2D99E /* MyMeme_TaeseonKimTests.swift */,
+				EC1F17B51E3C6B2400F2D99E /* Info.plist */,
+			);
+			path = MyMeme.TaeseonKimTests;
+			sourceTree = "<group>";
+		};
+		EC1F17BD1E3C6B2500F2D99E /* MyMeme.TaeseonKimUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC1F17BE1E3C6B2500F2D99E /* MyMeme_TaeseonKimUITests.swift */,
+				EC1F17C01E3C6B2500F2D99E /* Info.plist */,
+			);
+			path = MyMeme.TaeseonKimUITests;
+			sourceTree = "<group>";
+		};
+		EC1F17D31E3C86A900F2D99E /* DrawViewSet */ = {
+			isa = PBXGroup;
+			children = (
+				EC1F17CE1E3C741400F2D99E /* DrawView.swift */,
+				EC1F17D11E3C74F300F2D99E /* Line.swift */,
+			);
+			name = DrawViewSet;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC1F179A1E3C6B2400F2D99E /* MyMeme.TaeseonKim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1F17C31E3C6B2500F2D99E /* Build configuration list for PBXNativeTarget "MyMeme.TaeseonKim" */;
+			buildPhases = (
+				EC1F17971E3C6B2400F2D99E /* Sources */,
+				EC1F17981E3C6B2400F2D99E /* Frameworks */,
+				EC1F17991E3C6B2400F2D99E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMeme.TaeseonKim;
+			productName = MyMeme.TaeseonKim;
+			productReference = EC1F179B1E3C6B2400F2D99E /* MyMeme.TaeseonKim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC1F17AE1E3C6B2400F2D99E /* MyMeme.TaeseonKimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1F17C61E3C6B2500F2D99E /* Build configuration list for PBXNativeTarget "MyMeme.TaeseonKimTests" */;
+			buildPhases = (
+				EC1F17AB1E3C6B2400F2D99E /* Sources */,
+				EC1F17AC1E3C6B2400F2D99E /* Frameworks */,
+				EC1F17AD1E3C6B2400F2D99E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1F17B11E3C6B2400F2D99E /* PBXTargetDependency */,
+			);
+			name = MyMeme.TaeseonKimTests;
+			productName = MyMeme.TaeseonKimTests;
+			productReference = EC1F17AF1E3C6B2400F2D99E /* MyMeme.TaeseonKimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC1F17B91E3C6B2500F2D99E /* MyMeme.TaeseonKimUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1F17C91E3C6B2500F2D99E /* Build configuration list for PBXNativeTarget "MyMeme.TaeseonKimUITests" */;
+			buildPhases = (
+				EC1F17B61E3C6B2500F2D99E /* Sources */,
+				EC1F17B71E3C6B2500F2D99E /* Frameworks */,
+				EC1F17B81E3C6B2500F2D99E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1F17BC1E3C6B2500F2D99E /* PBXTargetDependency */,
+			);
+			name = MyMeme.TaeseonKimUITests;
+			productName = MyMeme.TaeseonKimUITests;
+			productReference = EC1F17BA1E3C6B2500F2D99E /* MyMeme.TaeseonKimUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC1F17931E3C6B2400F2D99E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = TaeseonKim;
+				TargetAttributes = {
+					EC1F179A1E3C6B2400F2D99E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4P2H4G47JA;
+						ProvisioningStyle = Automatic;
+					};
+					EC1F17AE1E3C6B2400F2D99E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4P2H4G47JA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC1F179A1E3C6B2400F2D99E;
+					};
+					EC1F17B91E3C6B2500F2D99E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4P2H4G47JA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC1F179A1E3C6B2400F2D99E;
+					};
+				};
+			};
+			buildConfigurationList = EC1F17961E3C6B2400F2D99E /* Build configuration list for PBXProject "MyMeme.TaeseonKim" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC1F17921E3C6B2400F2D99E;
+			productRefGroup = EC1F179C1E3C6B2400F2D99E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC1F179A1E3C6B2400F2D99E /* MyMeme.TaeseonKim */,
+				EC1F17AE1E3C6B2400F2D99E /* MyMeme.TaeseonKimTests */,
+				EC1F17B91E3C6B2500F2D99E /* MyMeme.TaeseonKimUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC1F17991E3C6B2400F2D99E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1F17A91E3C6B2400F2D99E /* LaunchScreen.storyboard in Resources */,
+				EC1F17A61E3C6B2400F2D99E /* Assets.xcassets in Resources */,
+				EC1F17A41E3C6B2400F2D99E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1F17AD1E3C6B2400F2D99E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1F17B81E3C6B2500F2D99E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC1F17971E3C6B2400F2D99E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1F179F1E3C6B2400F2D99E /* AppDelegate.swift in Sources */,
+				EC1F17D71E3C89CA00F2D99E /* MemeEditingViewControllerTextField.swift in Sources */,
+				EC1F17F11E3CD1A100F2D99E /* MemeCollectionViewController.swift in Sources */,
+				EC1F17D21E3C74F300F2D99E /* Line.swift in Sources */,
+				EC1F17CD1E3C6CC700F2D99E /* MemeEditingViewController.swift in Sources */,
+				EC1F17E51E3C93B200F2D99E /* MemesTableViewController.swift in Sources */,
+				EC1F17F31E3CD1A800F2D99E /* MemeCollectionViewCell.swift in Sources */,
+				EC1F17CF1E3C741400F2D99E /* DrawView.swift in Sources */,
+				EC1F17EF1E3CBCDB00F2D99E /* MemedImage.swift in Sources */,
+				EC1F17D51E3C888B00F2D99E /* Meme.swift in Sources */,
+				EC1F17E81E3C94A000F2D99E /* MemeTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1F17AB1E3C6B2400F2D99E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1F17B41E3C6B2400F2D99E /* MyMeme_TaeseonKimTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1F17B61E3C6B2500F2D99E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1F17BF1E3C6B2500F2D99E /* MyMeme_TaeseonKimUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC1F17B11E3C6B2400F2D99E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1F179A1E3C6B2400F2D99E /* MyMeme.TaeseonKim */;
+			targetProxy = EC1F17B01E3C6B2400F2D99E /* PBXContainerItemProxy */;
+		};
+		EC1F17BC1E3C6B2500F2D99E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1F179A1E3C6B2400F2D99E /* MyMeme.TaeseonKim */;
+			targetProxy = EC1F17BB1E3C6B2500F2D99E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC1F17A21E3C6B2400F2D99E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1F17A31E3C6B2400F2D99E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC1F17A71E3C6B2400F2D99E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1F17A81E3C6B2400F2D99E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC1F17C11E3C6B2500F2D99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC1F17C21E3C6B2500F2D99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC1F17C41E3C6B2500F2D99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4P2H4G47JA;
+				INFOPLIST_FILE = MyMeme.TaeseonKim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appstamp.MyMeme-TaeseonKim";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EC1F17C51E3C6B2500F2D99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4P2H4G47JA;
+				INFOPLIST_FILE = MyMeme.TaeseonKim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appstamp.MyMeme-TaeseonKim";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EC1F17C71E3C6B2500F2D99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4P2H4G47JA;
+				INFOPLIST_FILE = MyMeme.TaeseonKimTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appstamp.MyMeme-TaeseonKimTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyMeme.TaeseonKim.app/MyMeme.TaeseonKim";
+			};
+			name = Debug;
+		};
+		EC1F17C81E3C6B2500F2D99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4P2H4G47JA;
+				INFOPLIST_FILE = MyMeme.TaeseonKimTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appstamp.MyMeme-TaeseonKimTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyMeme.TaeseonKim.app/MyMeme.TaeseonKim";
+			};
+			name = Release;
+		};
+		EC1F17CA1E3C6B2500F2D99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4P2H4G47JA;
+				INFOPLIST_FILE = MyMeme.TaeseonKimUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appstamp.MyMeme-TaeseonKimUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MyMeme.TaeseonKim;
+			};
+			name = Debug;
+		};
+		EC1F17CB1E3C6B2500F2D99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4P2H4G47JA;
+				INFOPLIST_FILE = MyMeme.TaeseonKimUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appstamp.MyMeme-TaeseonKimUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MyMeme.TaeseonKim;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC1F17961E3C6B2400F2D99E /* Build configuration list for PBXProject "MyMeme.TaeseonKim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1F17C11E3C6B2500F2D99E /* Debug */,
+				EC1F17C21E3C6B2500F2D99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1F17C31E3C6B2500F2D99E /* Build configuration list for PBXNativeTarget "MyMeme.TaeseonKim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1F17C41E3C6B2500F2D99E /* Debug */,
+				EC1F17C51E3C6B2500F2D99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1F17C61E3C6B2500F2D99E /* Build configuration list for PBXNativeTarget "MyMeme.TaeseonKimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1F17C71E3C6B2500F2D99E /* Debug */,
+				EC1F17C81E3C6B2500F2D99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1F17C91E3C6B2500F2D99E /* Build configuration list for PBXNativeTarget "MyMeme.TaeseonKimUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1F17CA1E3C6B2500F2D99E /* Debug */,
+				EC1F17CB1E3C6B2500F2D99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC1F17931E3C6B2400F2D99E /* Project object */;
+}
