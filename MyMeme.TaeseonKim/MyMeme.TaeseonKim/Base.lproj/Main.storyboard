@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IPn-eu-IZD">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IPn-eu-IZD">
                                 <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                             </imageView>
                         </subviews>
@@ -160,7 +160,7 @@
                                 <rect key="frame" x="0.0" y="28" width="320" height="65"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MkD-6j-lHs" id="UOx-wI-jYE">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="64.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="cMo-PI-y9D">

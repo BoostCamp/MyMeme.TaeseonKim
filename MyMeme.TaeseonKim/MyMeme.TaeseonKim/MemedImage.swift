@@ -17,7 +17,7 @@ class MemedImaged: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         tabBarController?.tabBar.isHidden = true
-        if let memeImage = meme?.image {
+        if let memeImage = meme?.memedImage {
             memedImage.image = memeImage
         }
     }

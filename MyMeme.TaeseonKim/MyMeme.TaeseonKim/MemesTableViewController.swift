@@ -42,7 +42,7 @@ class MemesTableViewController: UITableViewController {
         
         let meme = Meme.makeMemeAppdelegate().memes[indexPath.row]
         
-        cell.memeImage.image = meme.image
+        cell.memeImage.image = meme.memedImage
         cell.memeTopText.text = meme.top
         cell.memeBottomText.text = meme.bottom
         

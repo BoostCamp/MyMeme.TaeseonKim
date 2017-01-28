@@ -35,7 +35,7 @@ class MemeCollectionViewController: UICollectionViewController {
         
         let meme = Meme.makeMemeAppdelegate().memes[indexPath.row]
         
-        cell.memeimage.image = meme.image
+        cell.memeimage.image = meme.memedImage
         
         return cell
     }
