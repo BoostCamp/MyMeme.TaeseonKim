@@ -11,15 +11,16 @@ Meme는 부스트캠프 2번째 프로젝트 입니다.
 + 더블클릭시 전체 삭제 가능.
 + MemedImage에서 큰 화면으로 볼 수 있음.
 + MemesTableViewcontroller에서 meme 항목들을 이동가능함.
+
 ## Editing Mode
-https://cloud.githubusercontent.com/assets/24788725/22397675/48af2c4e-e5ba-11e6-8baa-63306331bda9.png
-https://cloud.githubusercontent.com/assets/24788725/22397672/48ad020c-e5ba-11e6-88e6-14ecad455255.png
-https://cloud.githubusercontent.com/assets/24788725/22397674/48aeb728-e5ba-11e6-8c66-4c9e795e8e4a.png
-https://cloud.githubusercontent.com/assets/24788725/22397673/48ad9f0a-e5ba-11e6-9298-9f40ec9491c5.png
+![Alt text](https://cloud.githubusercontent.com/assets/24788725/22397675/48af2c4e-e5ba-11e6-8baa-63306331bda9.png)
+![Alt text](https://cloud.githubusercontent.com/assets/24788725/22397672/48ad020c-e5ba-11e6-88e6-14ecad455255.png)
+![Alt text](https://cloud.githubusercontent.com/assets/24788725/22397674/48aeb728-e5ba-11e6-8c66-4c9e795e8e4a.png)
+![Alt text](https://cloud.githubusercontent.com/assets/24788725/22397673/48ad9f0a-e5ba-11e6-9298-9f40ec9491c5.png)
 
 ## Table & CollectionViewMode
-https://cloud.githubusercontent.com/assets/24788725/22397680/5dc03a7e-e5ba-11e6-8cee-71cf8317c783.png
-https://cloud.githubusercontent.com/assets/24788725/22397679/5dba1158-e5ba-11e6-8cf2-6980607637ac.png
+![Alt text](https://cloud.githubusercontent.com/assets/24788725/22397680/5dc03a7e-e5ba-11e6-8cee-71cf8317c783.png)
+![Alt text](https://cloud.githubusercontent.com/assets/24788725/22397679/5dba1158-e5ba-11e6-8cf2-6980607637ac.png)
 
 ## DetailView
-https://cloud.githubusercontent.com/assets/24788725/22397678/5d524136-e5ba-11e6-8a34-9c308212834e.png
+![Alt text](https://cloud.githubusercontent.com/assets/24788725/22397678/5d524136-e5ba-11e6-8a34-9c308212834e.png)
