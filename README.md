@@ -9,6 +9,3 @@ Meme는 부스트캠프 2번째 프로젝트 입니다.
 + EditingViewController에서 터치를 통해 직선을 그을 수 있음.
 + MemedImage에서 큰 화면으로 볼 수 있음.
 + MemesTableViewcontroller에서 meme 항목들을 이동가능함.
-
-## 시연영상
-+
