@@ -29,4 +29,8 @@ struct Meme {
     static func makeMemeAppdelegate() -> AppDelegate {
         return UIApplication.shared.delegate as! AppDelegate
     }
+    
+    // meme 구조체를 만들어서 해당 구조체를 쉽게 불러 오도록 했다.
+    // static method를 만들어서 반복적으로 호출 되어야 하는 녀석들한 한 곳에 모아놨다.
+    
 }
